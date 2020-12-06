@@ -2,6 +2,8 @@
 def counter(x):
     hasil = list(map(list, zip(*x)))[::-1]
     print("", hasil[0], '\n', hasil[1], '\n', hasil[2])
+    return hasil
+    
 
 A = [[1, 2, 3],
 [4, 5, 6],
